@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha - Online stock trading </title>
+    <link rel="shortcut icon" href="https://zerodha.com/static/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="homeBtn">
+            <img src="	https://zerodha.com/static/images/logo.svg" alt="home BTN">
+        </div>
+        <ul>
+            <li>Signup</li>
+            <li>About</li>
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Support</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="tradingImg">
+            <img src="https://zerodha.com/static/images/landing.png" alt="trading img" width = 50%>
+        </div>
+        <div class="firstHead">
+            <p>Invest in everything</p>
+        </div>
+        <div class="secondHead">
+            <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+        </div>
+        <div class="submit">
+            <button>Sign up now</button>
+        </div>
+        <div class="calc">
+            <h1 class="calcHead">Know your returns</h1>
+            <input class="inputBtn" type="text" name="" id="capi" placeholder="Capital">
+            <input class="inputBtn" type="text" name="" id="years" placeholder="Years">
+            <input class="inputBtn" type="text" name="" id="rate" placeholder="Interest">
+            <input type="checkbox" name="maki" id="check">
+            <label class="checkbox1" for="maki">Compound ?</label>
+            <button onclick="returns()" class="calcBtn submit" >Calulate</button> 
+            <p id="output" >Total returns</p>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
